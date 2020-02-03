@@ -36,6 +36,7 @@ gem 'hirb'
 gem 'jquery-rails' 
 # for creating new users
 gem 'faker', '1.7.3'
+#gem 'better_errors'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
