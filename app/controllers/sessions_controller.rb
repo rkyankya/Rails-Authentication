@@ -1,6 +1,5 @@
 class SessionsController < ApplicationController
-  def new
-  end
+  def new; end
 
   def create
     @user = User.find_by(email: params[:session][:email])
@@ -8,7 +7,7 @@ class SessionsController < ApplicationController
       log_in @user
       flash.now[:success] = "Welcome, #{current_user.name}"
       remember @user
-      render 'new'
+      redirect_to root_path
     else
       flash.now[:danger] = 'email/password combination invalid.'
       render 'new'

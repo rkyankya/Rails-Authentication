@@ -8,10 +8,9 @@ class PostsController < ApplicationController
   def create
     @post = Post.new(post_params)
     @post.user_id = current_user.id
-    if @post.save 
-      flash[:success] = 'Post created succesfully'
-      redirect_to posts_path
-    end
+    @post.save
+    flash[:success] = 'Post created succesfully'
+    redirect_to root_path
   end
 
   def index
@@ -25,9 +24,9 @@ class PostsController < ApplicationController
   end
 
   def logged_in?
-    unless logged?
-      flash[:danger] = 'Please log in if you want to create a post'
-      redirect_to login_path
-    end
+    return unless logged?
+
+    flash[:danger] = 'Please log in if you want to create a post'
+    redirect_to login_path
   end
 end
