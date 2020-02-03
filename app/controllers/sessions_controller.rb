@@ -17,7 +17,7 @@ class SessionsController < ApplicationController
 
   def destroy
     forget
-    flash.now[:success] = 'Logged Out!'
-    redirect_to login_path 
+    flash[:success] = 'Logged Out!'
+    redirect_to login_path
   end
 end

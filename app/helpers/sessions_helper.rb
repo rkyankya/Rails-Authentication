@@ -17,6 +17,10 @@ module SessionsHelper
     end
   end
 
+  def logged?
+    !current_user.nil?
+  end
+
   def remember(user)
     #user.remember!
     token = SecureRandom.urlsafe_base64.to_s
