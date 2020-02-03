@@ -24,7 +24,7 @@ class PostsController < ApplicationController
   end
 
   def logged_in?
-    return unless logged?
+    return if logged?
 
     flash[:danger] = 'Please log in if you want to create a post'
     redirect_to login_path

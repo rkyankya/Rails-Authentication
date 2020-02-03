@@ -1,8 +1,9 @@
 <nav>
 <% if current_user %>
   <%= current_user.email %>
-  <%= link_to 'Log Out', logout_path, method: :delete, class: 'btn btn-primary' %>
+  <%= link_to 'Log Out', logout_path, method: :delete, class: 'btn btn-secundary' %>
+  <%= link_to 'Create a post', new_post_path, class: 'btn btn-secundary' %>
 <% else %>
-  <%= link_to 'Log in', login_path, class: 'btn btn-primary' %>
+  <%= link_to 'Log in', login_path, class: 'btn btn-secundary' %>
 <% end %>
 </nav>
