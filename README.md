@@ -25,7 +25,7 @@ You can setup this project by;
 - Afterwards, run `rails db:prepare`. This is the same as runing `rails db:create` and 
 `rails db:migrate` in succession.
 
-- Run `db:seed`. This generates users and posts automatically
+- Run `rails db:seed`. This generates users and posts automatically
 
 - To login after users are generated **Email** "foo1@bar.com"  **Password** "foobar"
 - We have a cool gem! To use it, run the rails console typing "rails c" in your terminal and when it loads type in the first line "Hirb.enable", it will return true if everything is working. Now you can see the tables of the database!
