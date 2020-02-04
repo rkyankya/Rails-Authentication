@@ -20,7 +20,7 @@ You can setup this project by;
 
 ## Before you start
 
-- Remember to run "`bundle install`" in your terminal. In case of an error run "`bundle update`".  
+- Remember to run `bundle install` in your terminal. In case of an error run `bundle update`.  
 
 - Afterwards, run "`rails db:drop`", "`rails db:create`", "`rails db:migrate`" and "`rails db:seed`" to create a new database and seed it with given users and some posts to make your life easier!
 
