@@ -21,12 +21,10 @@ You can setup this project by;
 
 - Remember to run "`bundle install`" in your terminal. In case of an error run "`bundle update`".  
 
-- Afterwards, run "`rails db:prepare`" . This is the same as runing `rails db:create `and 
-"`rails db:migrate`" in succession.
-
-- Run `db:seed`. This generates users and posts automatically
+- Afterwards, run "`rails db:drop`", "`rails db:create`", "`rails db:migrate`" and "`rails db:seed`" to create a new database and seed it with given users and some posts to make your life easier!
 
 - To login after users are generated **Email** "foo1@bar.com"  **Password** "foobar"
+
 - We have a cool gem! To use it, run the rails console typing "rails c" in your terminal and when it loads type in the first line "Hirb.enable", it will return true if everything is working. Now you can see the tables of the database!
 
 # Built with
@@ -34,6 +32,7 @@ You can setup this project by;
 - Ruby ~> 2.6.5
 - Rails ~> 6.0.2
 - VSCode
+- Bootstrap
 
 # Authors
 

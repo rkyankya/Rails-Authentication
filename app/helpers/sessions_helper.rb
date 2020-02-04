@@ -22,7 +22,6 @@ module SessionsHelper
   end
 
   def remember(user)
-    # user.remember!
     token = SecureRandom.urlsafe_base64.to_s
     cookies.permanent.signed[:user_id] = user.id
     cookies.permanent[:remember_token] = token
