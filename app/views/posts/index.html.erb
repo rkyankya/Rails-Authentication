@@ -1,7 +1,7 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
       <ul>
-        <% @posts.each do |post| %>
+        <% @posts.reverse_each do |post| %>
           <li>
             <h3 class="display-5">
             <%= User.find_by(id: post.user_id).name if logged? %>
