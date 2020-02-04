@@ -20,10 +20,10 @@ You can setup this project by;
 
 ## Before you start
 
-- Remember to run "`bundle install`" in your terminal. In case of an error run "`bundle update`".  
+- Remember to run `bundle install in your terminal. In case of an error run `bundle update`.  
 
-- Afterwards, run "`rails db:prepare`" . This is the same as runing `rails db:create `and 
-"`rails db:migrate`" in succession.
+- Afterwards, run `rails db:prepare`. This is the same as runing `rails db:create` and 
+`rails db:migrate` in succession.
 
 - Run `db:seed`. This generates users and posts automatically
 
