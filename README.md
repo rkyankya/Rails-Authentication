@@ -14,8 +14,8 @@ You can setup this project by;
 ## Live version
 [Heroku Live Version]( https://microverse-auth.herokuapp.com/)
 
-##Login Heroku
-		Email "foo1@bar.com"  **Password** "foobar"
+## Login Heroku
+	Email "foo1@bar.com"  **Password** "foobar"
 
 ## Before you start
 
