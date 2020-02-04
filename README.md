@@ -4,8 +4,9 @@ Microverse Ruby on Rails Project No.6 [Authentication]
 This assignment consists of using the bcrypt gem to have a first approach at authentication in rails. You will build an application that allows users to create posts and the authors of the posts are displayed only if as a User you are logged in.
 Full task description: https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication.
 
-#Setup
+## Setup
 You can setup this project by;
+
 #### Either Cloning it 
         git@github.com:rkyankya/Rails-Authentication.git
 #### Or downing the Zipped file from 
@@ -15,7 +16,7 @@ You can setup this project by;
 [Heroku Live Version]( https://microverse-auth.herokuapp.com/)
 
 ## Login Heroku
-	Email "foo1@bar.com"  **Password** "foobar"
+	Email "foo1@bar.com"  Password "foobar"
 
 ## Before you start
 
